@@ -89,7 +89,7 @@
             if( way == 'forward' ) {
                 let interval = setInterval(() => {
                     dots.innerText += '.';
-                    if( dots.innerText.length > 2 ) {
+                    if( dots.innerText.length > 5 ) {
                         clearInterval(interval)
                         createDots('backward')
                     }
